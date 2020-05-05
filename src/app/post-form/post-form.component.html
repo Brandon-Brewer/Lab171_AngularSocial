@@ -1,0 +1,11 @@
+<div>
+    <br/>
+    <button [hidden]="!hideForm" (click)="newThought()">New Thought</button>
+    <form [hidden]="hideForm">
+        <input [(ngModel)]="post.title" name="title" placeholder="Title" type="text">
+        <br/>
+        <input [(ngModel)]="post.thought" name="thought" placeholder="Thought" type="text">
+        <br/>
+        <button type="submit" (click)="submitPost()">Submit!</button>
+    </form>
+</div>

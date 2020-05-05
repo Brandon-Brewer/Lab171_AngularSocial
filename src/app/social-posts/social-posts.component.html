@@ -1,0 +1,4 @@
+<div>
+    <app-post-form (submit)="onSubmit($event)"></app-post-form>
+    <app-post *ngFor="let post of posts" [post]="post" (deleted)="onDelete($event)"></app-post>
+</div>
