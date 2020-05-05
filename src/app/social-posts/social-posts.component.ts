@@ -15,7 +15,7 @@ export class SocialPostsComponent implements OnInit {
   }
 
   posts:Post[] = [
-    {title: "Angular is awesome: a case study in sarcasm", thought: "see above" },
+    {title: "Angular is Awesome: A Case Study in Sarcasm", thought: "see above" },
     {title: "Testing Title", thought: "Testing Thought"}
   ]
 
